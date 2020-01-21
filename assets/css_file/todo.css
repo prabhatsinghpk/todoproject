@@ -1,0 +1,82 @@
+.container{
+	background-color: #f7f7f7;
+	width: 30%;
+	margin: 15% auto 0 auto;
+	box-shadow: 4px 4px 3px rgba(0, 0, 255, .2);
+	font-family: 'Roboto', sans-serif;
+
+}
+body{
+	background: #12c2e9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+
+	/*background-position: top;
+	/*background-size: auto;*/
+	/*background-image: url(file:///C:/Users/PRABHAT%20KUMAR%20SINGH/Documents/Web%20Development/TodoProject/assets/css_file/background.jfif);*/
+
+}
+
+#plus{
+	float: right;
+}
+.completed{
+	text-decoration: line-through;
+	color: grey;
+}
+h1{
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+input{
+	width: 100%;
+	font-size: 18px;
+	background-color: #f7f7f7;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #2980b9;
+	border: 2px solid rgba(0,0,0,0);
+}
+input:focus{
+	background-color: white;
+	border: 2px solid #2980b9;
+	outline: none;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	background-color: white;
+	color: #666;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 40px;
+	line-height: 40px
+}
+li:nth-of-type(2n){
+	background-color: lightgrey;
+}
+span{
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
